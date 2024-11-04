@@ -1,0 +1,60 @@
+03-February-2022 20:44:51---Student: you
+03-February-2022 20:44:51----Code compilesPASS
+Launch Suite:
+  03-February-2022 20:44:51----Process exits shell with correct return code:OK
+  03-February-2022 20:44:52----Shell message is displayed:OK
+Result:PASS
+Unknown Command Message:
+  03-February-2022 20:44:52----Unknown command should display corresponding message:OK
+  03-February-2022 20:44:53----Multiple unknown commands:OK
+Result:PASS
+Long Command Message:
+  03-February-2022 20:44:53----Long command input is invalid:OK
+  03-February-2022 20:44:54----Long command message takes priority:OK
+Result:PASS
+Echo Simple Messages:
+  03-February-2022 20:44:54----Echo of one character displays correctly:OK
+  03-February-2022 20:44:55----Echo of simple message displays correctly:OK
+  03-February-2022 20:44:55----Echo of simple message displays correctly v3:OK
+  03-February-2022 20:44:56----Echo of simple message displays correctly v3:OK
+  03-February-2022 20:44:56----Echo of simple message does not show errors:OK
+Result:PASS
+Echo Special Characters:
+  03-February-2022 20:44:57----Echo of mixed message displays correctly:OK
+  03-February-2022 20:44:58----echo with quotes has no special meaning:OK
+  03-February-2022 20:44:58----echo ignores extra spaces:OK
+Result:PASS
+Multiple Commands:
+  03-February-2022 20:44:59----Two echo commands display correctly:OK
+  03-February-2022 20:44:59----Two echo commands do not show error:OK
+  03-February-2022 20:45:00----Echo commands work while other commands error:OK
+Result:PASS
+Simple variables accesses:
+  03-February-2022 20:45:00----Declare and access a single variable:OK
+  03-February-2022 20:45:01----Declare and access a single variable:OK
+Result:PASS
+Variable integration with other commands:
+  03-February-2022 20:45:01----Declare a single variable:OK
+  03-February-2022 20:45:02----Declare and access two variables:OK
+Result:PASS
+Custom variable accesses:
+  03-February-2022 20:45:02----Access variables in separate lines:OK
+  03-February-2022 20:45:03----Access variables in separate lines v2:OK
+Result:PASS
+Echo without variables displays plain text:
+  03-February-2022 20:45:03----Variables access with $ is bound to name:OK
+  03-February-2022 20:45:04----Non-existing variable displays as plain text:OK
+Result:PASS
+Variable values can be redefined:
+  03-February-2022 20:45:04----Variable value is redefined appropriately:OK
+  03-February-2022 20:45:05----Variable value is redefined appropriately v2:OK
+Result:PASS
+Variable formatting edge cases:
+  03-February-2022 20:45:05----Variables accesses separate by the first equal:OK
+  03-February-2022 20:45:06----Variable declaration with spaces is not supported:OK
+Result:PASS
+Advanced tests:
+  03-February-2022 20:45:06----Declare and access 100 variables:OK
+Result:PASS
+03-February-2022 20:45:10--- Suites Passed 14.0/14.0
+03-February-2022 20:45:10 FINISHED
